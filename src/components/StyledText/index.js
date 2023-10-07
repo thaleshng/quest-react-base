@@ -1,13 +1,10 @@
 import "./index.css"
 
 function StyledText ({colorCard, colorText, textParagraph}) {
-    return(
-        <div 
-        className="card" 
-        style={{backgroundColor: colorCard, color: colorText}}>
-            <p>{textParagraph}</p>
-        </div>
-    )
+    return  <div className="card" 
+            style={{backgroundColor: colorCard, color: colorText}}>
+                <p>{textParagraph}</p>
+            </div>
 }
 
 StyledText.defaultProps = {
